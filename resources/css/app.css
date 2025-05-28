@@ -1,0 +1,27 @@
+.beneficiary-row, .occupation-row {
+    transition: all 0.3s ease;
+}
+
+.beneficiary-row:hover, .occupation-row:hover {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.remove-beneficiary, .remove-occupation {
+    transition: all 0.2s ease;
+}
+
+.remove-beneficiary:hover, .remove-occupation:hover {
+    transform: scale(1.1);
+}
+
+/* สำหรับ input number ไม่ให้แสดงลูกศร */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
